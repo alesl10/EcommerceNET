@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoPrueba.DTO\ProyectoPrueba.DTO.csproj" />
+    <ProjectReference Include="..\ProyectoPrueba.Modelo\ProyectoPrueba.Modelo.csproj" />
+    <ProjectReference Include="..\ProyectoPrueba.Repositorio\ProyectoPrueba.Repositorio.csproj" />
+    <ProjectReference Include="..\ProyectoPrueba.Utilidades\ProyectoPrueba.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementacion\" />
+  </ItemGroup>
+
+</Project>

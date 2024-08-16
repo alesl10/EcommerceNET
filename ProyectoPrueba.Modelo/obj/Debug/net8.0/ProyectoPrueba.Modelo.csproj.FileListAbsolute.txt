@@ -1,0 +1,14 @@
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\bin\Debug\net8.0\ProyectoPrueba.Modelo.deps.json
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\bin\Debug\net8.0\ProyectoPrueba.Modelo.runtimeconfig.json
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\bin\Debug\net8.0\ProyectoPrueba.Modelo.dll
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\bin\Debug\net8.0\ProyectoPrueba.Modelo.pdb
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.csproj.AssemblyReference.cache
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.dll
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\refint\ProyectoPrueba.Modelo.dll
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.pdb
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ProyectoPrueba.Modelo.genruntimeconfig.cache
+C:\Users\alelopez\source\repos\ProyectoPrueba\ProyectoPrueba.Modelo\obj\Debug\net8.0\ref\ProyectoPrueba.Modelo.dll
