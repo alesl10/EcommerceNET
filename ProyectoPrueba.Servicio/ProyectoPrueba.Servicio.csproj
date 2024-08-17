@@ -13,8 +13,4 @@
     <ProjectReference Include="..\ProyectoPrueba.Utilidades\ProyectoPrueba.Utilidades.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Implementacion\" />
-  </ItemGroup>
-
 </Project>

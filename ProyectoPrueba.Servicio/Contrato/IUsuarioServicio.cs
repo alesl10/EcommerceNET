@@ -14,7 +14,7 @@ namespace ProyectoPrueba.Servicio.Contrato
         Task<SesionDTO> Autorizacion(LoginDTO modelo);
         Task<UsuarioDTO> Crear(UsuarioDTO modelo);
         Task<bool> Editar(UsuarioDTO modelo);
-        Task<bool> Eliminar(string id);
+        Task<bool> Eliminar(int id);
 
 
     }

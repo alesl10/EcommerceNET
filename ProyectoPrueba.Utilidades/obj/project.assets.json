@@ -2843,23 +2843,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alelopez\\.nuget\\packages\\": {},
+    "C:\\Users\\ale_s\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
+      "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
       "projectName": "ProyectoPrueba.Utilidades",
-      "projectPath": "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
-      "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Utilidades\\obj\\",
+      "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
+      "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2867,18 +2867,18 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
-              "projectPath": "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
+            "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
+              "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
             },
-            "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
-              "projectPath": "C:\\Users\\alelopez\\source\\repos\\ProyectoPrueba\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
+            "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
+              "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
             }
           }
         }
@@ -2923,7 +2923,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
