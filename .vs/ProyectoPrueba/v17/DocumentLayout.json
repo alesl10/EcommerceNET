@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|c:\\users\\alelopez\\source\\repos\\alesl10\\ecommercenet\\proyectoprueba.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|solutionrelative:proyectoprueba.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|c:\\users\\alelopez\\source\\repos\\alesl10\\ecommercenet\\proyectoprueba.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|solutionrelative:proyectoprueba.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|c:\\users\\alelopez\\source\\repos\\alesl10\\ecommercenet\\proyectoprueba.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|solutionrelative:proyectoprueba.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC77A1C6-ED05-4CED-A4F4-CB90E04C071F}|ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj|c:\\users\\alelopez\\source\\repos\\alesl10\\ecommercenet\\proyectoprueba.servicio\\contrato\\iproductoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC77A1C6-ED05-4CED-A4F4-CB90E04C071F}|ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj|solutionrelative:proyectoprueba.servicio\\contrato\\iproductoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|c:\\users\\alelopez\\source\\repos\\alesl10\\ecommercenet\\proyectoprueba.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D2DF27-5D56-4785-B3A3-0AB27DED4162}|ProyectoPrueba.API\\ProyectoPrueba.API.csproj|solutionrelative:proyectoprueba.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,22 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoPrueba.API\\Program.cs",
-              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Program.cs",
-              "RelativeToolTip": "ProyectoPrueba.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T15:32:55.589Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -68,15 +58,62 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ProyectoPrueba.API\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "ProyectoPrueba.API\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAqwHEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:32:14.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ProyectoPrueba.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\appsettings.json",
-              "RelativeToolTip": "ProyectoPrueba.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-20T15:32:48.501Z",
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "ProyectoPrueba.API\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\Controllers\\ProductoController.cs*",
+              "RelativeToolTip": "ProyectoPrueba.API\\Controllers\\ProductoController.cs*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAEwDkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:19:24.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bbc44750-83fd-4d55-8d93-446a8d419178",
+        "Display": 1,
+        "X": 261,
+        "Y": 231,
+        "Width": 1590,
+        "Height": 717,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\Contrato\\IProductoServicio.cs",
+              "RelativeDocumentMoniker": "ProyectoPrueba.Servicio\\Contrato\\IProductoServicio.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\Contrato\\IProductoServicio.cs",
+              "RelativeToolTip": "ProyectoPrueba.Servicio\\Contrato\\IProductoServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:42:32.556Z",
               "EditorCaption": ""
             }
           ]

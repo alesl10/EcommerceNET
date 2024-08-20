@@ -1,35 +1,35 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 using ProyectoPrueba.Servicio.Contrato;
 using ProyectoPrueba.DTO;
-using System.Reflection.Metadata.Ecma335;
-using Microsoft.AspNetCore.Mvc.Abstractions;
+using ProyectoPrueba.Servicio.Implementacion;
 
 namespace ProyectoPrueba.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuarioController : ControllerBase
+    public class ProductoController : ControllerBase
     {
-        private readonly IUsuarioServicio _usuarioServicio;
+        private readonly IProductoServicio _productoServicio;
 
-        public UsuarioController(IUsuarioServicio usuarioServicio)
+        public ProductoController(IProductoServicio productoServicio)
         {
-            _usuarioServicio = usuarioServicio;
+            _productoServicio = productoServicio;
         }
 
-        [HttpGet("Lista/{rol:alpha}/{buscar:alpha?}")]
-        public async Task<IActionResult> Lista(string rol, string buscar = "NA")
+        [HttpGet("Lista/{buscar:alpha?}")]
+        public async Task<IActionResult> Lista(string buscar = "NA")
         {
-            var response = new ResponseDTO<List<UsuarioDTO>>();
+            var response = new ResponseDTO<List<ProductoDTO>>();
 
             try
             {
                 if (buscar == "NA") buscar = "";
 
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Lista(rol, buscar);
+                response.Resultado = await _productoServicio.Lista(buscar);
 
 
             }
@@ -41,16 +41,17 @@ namespace ProyectoPrueba.API.Controllers
             return Ok(response);
         }
 
-
-        [HttpGet("Obtener/{id}")]
-        public async Task<IActionResult> Obtener(int id)
+        [HttpGet("Lista/{categoria}/{buscar:alpha?}")]
+        public async Task<IActionResult> Catalogo(string categoria, string buscar = "NA")
         {
-            var response = new ResponseDTO<UsuarioDTO>();
+            var response = new ResponseDTO<List<ProductoDTO>>();
 
             try
             {
+                if (buscar == "NA") buscar = "";
+
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Obtener(id);
+                response.Resultado = await _productoServicio.Catalogo(categoria, buscar);
 
 
             }
@@ -62,15 +63,17 @@ namespace ProyectoPrueba.API.Controllers
             return Ok(response);
         }
 
-        [HttpPost("crear")]
-        public async Task<IActionResult> Crear([FromBody] UsuarioDTO modelo)
+        [HttpGet("Producto/{id}")]
+        public async Task<IActionResult> productoById(int id)
         {
-            var response = new ResponseDTO<UsuarioDTO>();
+            var response = new ResponseDTO<ProductoDTO>();
 
             try
             {
+
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Crear(modelo);
+                response.Resultado = await _productoServicio.Obtener(id);
+
 
             }
             catch (Exception ex)
@@ -81,15 +84,17 @@ namespace ProyectoPrueba.API.Controllers
             return Ok(response);
         }
 
-        [HttpPost("Autorizacion")]
-        public async Task<IActionResult> Autorizacion([FromBody] LoginDTO modelo)
+        [HttpPost("Crear")]
+        public async Task<IActionResult> Crear([FromBody] ProductoDTO modelo)
         {
-            var response = new ResponseDTO<SesionDTO>();
+            var response = new ResponseDTO<ProductoDTO>();
 
             try
             {
+
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Autorizacion(modelo);
+                response.Resultado = await _productoServicio.Crear(modelo);
+
 
             }
             catch (Exception ex)
@@ -100,15 +105,17 @@ namespace ProyectoPrueba.API.Controllers
             return Ok(response);
         }
 
-        [HttpPut("editar")]
-        public async Task<IActionResult> Editar([FromBody] UsuarioDTO modelo)
+        [HttpPut("Editar")]
+        public async Task<IActionResult> Editar([FromBody] ProductoDTO modelo)
         {
             var response = new ResponseDTO<bool>();
 
             try
             {
+
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Editar(modelo);
+                response.Resultado = await _productoServicio.Editar(modelo);
+
 
             }
             catch (Exception ex)
@@ -126,8 +133,10 @@ namespace ProyectoPrueba.API.Controllers
 
             try
             {
+
                 response.EsCorrecto = true;
-                response.Resultado = await _usuarioServicio.Eliminar(id);
+                response.Resultado = await _productoServicio.Eliminar(id);
+
 
             }
             catch (Exception ex)
@@ -137,6 +146,5 @@ namespace ProyectoPrueba.API.Controllers
             }
             return Ok(response);
         }
-
     }
 }

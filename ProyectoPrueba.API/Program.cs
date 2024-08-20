@@ -20,7 +20,6 @@ builder.Services.AddDbContext<DbecommerceContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Connection"));
 });
 
-
 // para trabajar con modelos genericos
 builder.Services.AddTransient(typeof(IGenericoRepositorio<>), typeof(GenericoRepositorio<>));
 
