@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoPrueba.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf3e29ee43f2b38bf36e57a8e57d48288ccf09d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94194bca5900d4de21bf8e690a0fd15e7e7da00e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoPrueba.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoPrueba.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

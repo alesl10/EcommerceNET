@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj": {}
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj",
         "projectName": "ProyectoPrueba.API",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.API\\obj\\",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\ProyectoPrueba.API.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,15 +25,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj"
               }
             }
           }
@@ -53,6 +53,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -77,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj",
         "projectName": "ProyectoPrueba.DTO",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\obj\\",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,71 +116,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj",
-        "projectName": "ProyectoPrueba.Modelo",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -190,6 +140,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -217,24 +171,104 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj",
+        "projectName": "ProyectoPrueba.Modelo",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj",
         "projectName": "ProyectoPrueba.Repositorio",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\obj\\",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -242,15 +276,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
               }
             }
           }
@@ -269,6 +303,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -285,24 +335,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj",
         "projectName": "ProyectoPrueba.Servicio",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Servicio\\obj\\",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\ProyectoPrueba.Servicio.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Servicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -310,24 +360,24 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
               },
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
               },
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Repositorio\\ProyectoPrueba.Repositorio.csproj"
               },
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj"
               }
             }
           }
@@ -346,6 +396,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -362,24 +428,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
         "projectName": "ProyectoPrueba.Utilidades",
-        "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
-        "packagesPath": "C:\\Users\\ale_s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Utilidades\\obj\\",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\ProyectoPrueba.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ale_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -387,18 +453,18 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.DTO\\ProyectoPrueba.DTO.csproj"
               },
-              "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
-                "projectPath": "C:\\Users\\ale_s\\source\\repos\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\alesl10\\EcommerceNET\\ProyectoPrueba.Modelo\\ProyectoPrueba.Modelo.csproj"
               }
             }
           }
@@ -425,6 +491,16 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -443,7 +519,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

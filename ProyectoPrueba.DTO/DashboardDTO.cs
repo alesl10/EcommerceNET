@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoPrueba.DTO
 {
-    internal class DashboardDTO
+    public class DashboardDTO
     {
         public string? TotalIngresos {  get; set; }
         public int TotalVentas {  get; set; }

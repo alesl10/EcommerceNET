@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using ProyectoPrueba.Repositorio.Contrato;
 using ProyectoPrueba.Repositorio.implementacion;
 using ProyectoPrueba.Utilidades;
+using ProyectoPrueba.Servicio.Contrato;
+using ProyectoPrueba.Servicio.Implementacion;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +30,11 @@ builder.Services.AddScoped<IVentaRepositorio, VentaRepositorio>();
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
+builder.Services.AddScoped<ICategoriaServicio, CategoriaServicio>();
+builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
+builder.Services.AddScoped<IVentaServicio, VentaServicio>();
+builder.Services.AddScoped<IDashboardServicio, DashboardServicio>();
+builder.Services.AddScoped<IProductoServicio, ProductoServicio>();
 
 var app = builder.Build();
 
