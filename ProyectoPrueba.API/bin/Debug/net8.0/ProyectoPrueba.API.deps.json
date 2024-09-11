@@ -906,12 +906,6 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Threading.Channels/6.0.0": {},
@@ -941,7 +935,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "ProyectoPrueba.DTO.dll": {}
+          "ProyectoPrueba.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ProyectoPrueba.Modelo/1.0.0": {
@@ -950,7 +947,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "ProyectoPrueba.Modelo.dll": {}
+          "ProyectoPrueba.Modelo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ProyectoPrueba.Repositorio/1.0.0": {
@@ -960,7 +960,10 @@
           "ProyectoPrueba.Modelo": "1.0.0"
         },
         "runtime": {
-          "ProyectoPrueba.Repositorio.dll": {}
+          "ProyectoPrueba.Repositorio.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ProyectoPrueba.Servicio/1.0.0": {
@@ -973,7 +976,10 @@
           "ProyectoPrueba.Utilidades": "1.0.0"
         },
         "runtime": {
-          "ProyectoPrueba.Servicio.dll": {}
+          "ProyectoPrueba.Servicio.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ProyectoPrueba.Utilidades/1.0.0": {
@@ -985,7 +991,10 @@
           "ProyectoPrueba.Modelo": "1.0.0"
         },
         "runtime": {
-          "ProyectoPrueba.Utilidades.dll": {}
+          "ProyectoPrueba.Utilidades.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -35,6 +35,16 @@ builder.Services.AddScoped<IVentaServicio, VentaServicio>();
 builder.Services.AddScoped<IDashboardServicio, DashboardServicio>();
 builder.Services.AddScoped<IProductoServicio, ProductoServicio>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("nuevaPolitica", app =>
+    {
+        app.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,6 +55,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("nuevaPolitica");
 
 app.UseAuthorization();
 
